@@ -156,6 +156,7 @@ spec:
                       value: "sematext-operator"
     strategy: deployment
   version: 1.0.46
+  replaces: sematext-operator.v1.0.33
   installModes:
     - type: OwnNamespace
       supported: true
